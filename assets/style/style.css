@@ -348,3 +348,86 @@ main .statistics .count .divider {
   height: 100px;
   background-color: #cbd5e1;
 }
+/* who-is-it section */
+main .who-is-it {
+  margin: 0 auto;
+  padding: 96px 112px;
+  background-color: #fff;
+}
+main .who-is-it .container {
+  max-width: 600px;
+}
+main .who-is-it .title {
+  color: #4f46e5;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.084px;
+  border-radius: 1234px;
+  background-color: #eef2ff;
+  width: fit-content;
+  padding: 2px 8px;
+}
+main .who-is-it h2 {
+  color: #1e293b;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -0.504px;
+  margin-top: 24px;
+}
+main .who-is-it .description {
+  color: #475569;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+main .who-is-it .main-container {
+  display: flex;
+  gap: 32px;
+  margin-top: 64px;
+}
+main .who-is-it .main-container .left-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+main .who-is-it .main-container .left-side .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+main .who-is-it .main-container .left-side .box .bar-line {
+  width: 5px;
+  height: 100px;
+  background-color: #e0e7ff;
+  border-radius: 8px;
+}
+main .who-is-it .main-container .left-side .box h4 {
+  color: #475569;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+}
+main .who-is-it .main-container .left-side .box p {
+  color: #475569;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 12px;
+}
+main .who-is-it .main-container .right-side {
+  width: 50%;
+  max-height: 600px;
+}
+
+main .who-is-it .main-container .right-side img {
+  width: 100%;
+}
