@@ -203,3 +203,21 @@ body {
     height: 100%;
   }
 }
+
+/* start main section */
+
+/* social-proof section */
+main .social-proof {
+  margin: 0 auto;
+  padding: 64px 112px;
+  background-color: #f8fafc;
+}
+
+main .social-proof .social-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 32px;
+  column-gap: 64px;
+}
