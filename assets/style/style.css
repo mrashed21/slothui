@@ -16,6 +16,7 @@ body {
   margin: 0 auto;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
+
 /* header section start */
 /* .header {
   margin: 16px 112px;
@@ -125,7 +126,7 @@ body {
   margin: 0 auto;
 }
 
-.hero .gen-z .heading {
+.heading {
   text-align: center;
   color: #4f46e5;
   font-size: 14px;
@@ -220,4 +221,67 @@ main .social-proof .social-image {
   align-items: center;
   row-gap: 32px;
   column-gap: 64px;
+}
+/* start features section */
+main .features {
+  margin: 0 auto;
+  padding: 96px 112px;
+  background-color: #fff;
+}
+
+main .features .box {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+main .features .box h2 {
+  color: #1e293b;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -0.504px;
+  margin-top: 24px;
+}
+main .features .box .description {
+  color: #475569;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 160%;
+  margin-top: 24px;
+}
+main .features .feature-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 48px;
+  column-gap: 32px;
+  margin-top: 64px;
+}
+main .features .feature-main .feature-main-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .features .feature-main img {
+  width: 80px;
+  height: 80px;
+}
+main .features .feature-main h4 {
+  color: #1e293b;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  margin-top: 20px;
+}
+main .features .feature-main p {
+  color: #475569;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 160%;
+  margin-top: 8px;
 }
