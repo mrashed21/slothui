@@ -21,6 +21,7 @@ body {
 /* .header {
   margin: 16px 112px;
 } */
+
 .header .nav {
   display: flex;
   justify-content: space-between;
@@ -45,6 +46,9 @@ body {
   gap: 32px;
 }
 
+.mobile-auth {
+  display: none;
+}
 .header .menu a {
   color: #000;
   font-size: 16px;
