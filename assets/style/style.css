@@ -569,3 +569,79 @@ main .contact .location .location-continer p {
   font-style: normal;
   font-weight: 400;
 }
+
+/* start FAQ section */
+main .faq {
+  margin: 0 auto;
+  padding: 96px 320px;
+  background-color: #f8fafc;
+}
+
+main .faq h2 {
+  color: #1e293b;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -0.504px;
+  margin-top: 24px;
+}
+
+main .faq .description {
+  color: #475569;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.faq-container {
+  margin-top: 48px;
+}
+
+.faq-box {
+  border-bottom: 1px solid #cbd5e1;
+  padding: 15px 0;
+}
+
+.faq-box:last-child {
+  border-bottom: none;
+}
+
+.faq-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.faq-header h5 {
+  flex: 1;
+  color: #334155;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -0.112px;
+  margin-left: 8px;
+}
+
+.faq-header img {
+  width: 20px;
+  height: 20px;
+}
+
+.faq-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.faq-answer {
+  display: none;
+  color: #475569;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 16px;
+}
