@@ -4,7 +4,7 @@
   cursor: pointer;
   background: none;
   border: none;
-  padding: 10px;
+  padding: 16px;
   z-index: 1000;
 }
 
@@ -149,4 +149,128 @@ menu.active {
 .hero .gen-z .description {
   font-size: 16px;
   margin-top: 20px;
+}
+
+.hero .gen-z .app-store {
+  margin-top: 32px;
+}
+.hero .hero-image {
+  margin-top: 48px;
+}
+.hero .hero-image .left-image {
+  width: 100%;
+}
+.hero .hero-image .left-image img {
+  width: 100%;
+}
+.hero .hero-image .right-image {
+  top: 100px;
+  right: -250px;
+}
+
+/*social-proof  */
+main .social-proof {
+  padding: 64px 5px;
+}
+
+main .features {
+  margin: 0 auto;
+  padding: 96px 16px;
+  background-color: #fff;
+}
+main .features .feature-main {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+main .statistics .count {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+main .statistics {
+  background-color: #f8fafc;
+  padding: 64px 16px;
+}
+
+main .statistics h2 {
+  font-size: 30px;
+}
+
+main .statistics .description {
+  font-size: 18px;
+  padding: 0;
+}
+
+main .statistics .count .divider-res {
+  width: 100%;
+  height: 2px;
+  background-color: #cbd5e1;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+main .who-is-it {
+  margin: 0 auto;
+  padding: 96px 16px;
+  background-color: #fff;
+}
+
+main .who-is-it .main-container {
+  flex-direction: column;
+}
+
+main .who-is-it .main-container .left-side,
+main .who-is-it .main-container .right-side {
+  width: 100%;
+}
+
+main .testimonial {
+  padding: 64px 16px;
+}
+main .testimonial .container {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+main .contact {
+  padding: 64px 16px;
+}
+
+main .contact .location {
+  flex-direction: column;
+}
+
+main .faq {
+  margin: 0 auto;
+  padding: 64px 16px;
+  background-color: #f8fafc;
+}
+main .faq h2 {
+  font-size: 30px;
+}
+
+.faq-container {
+  margin-top: 40px;
+}
+main .cta {
+  flex-direction: column;
+  gap: 48px;
+}
+
+main .cta .left-side,
+main .cta .right-side {
+  padding: 0 10px;
+  width: 100%;
+}
+main .cta .left-side {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+main .cta .left-side .btn {
+  flex-direction: column;
+  gap: 5px;
+}
+main .cta .left-side .btn .btn-learn,
+main .cta .left-side .btn .btn-start {
+  width: 100%;
 }

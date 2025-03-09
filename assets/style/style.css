@@ -181,6 +181,7 @@ body {
   align-items: center;
   overflow: hidden;
   margin: 0 auto;
+  margin-top: 64px;
 }
 .hero .hero-image .right-image {
   position: absolute;
@@ -691,6 +692,7 @@ main .cta .left-side .btn .btn-learn {
   font-weight: 700;
   letter-spacing: -0.112px;
   padding: 12px 20px;
+  cursor: pointer;
 }
 main .cta .left-side .btn .btn-start {
   color: #fff;
@@ -702,6 +704,7 @@ main .cta .left-side .btn .btn-start {
   border-radius: 1234px;
   background-color: #4f46e5;
   padding: 12px 20px;
+  cursor: pointer;
 }
 main .cta .right-side {
   width: 50%;
