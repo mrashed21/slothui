@@ -431,3 +431,79 @@ main .who-is-it .main-container .right-side {
 main .who-is-it .main-container .right-side img {
   width: 100%;
 }
+
+/* testimonial section */
+
+main .testimonial {
+  margin: 0 auto;
+  padding: 96px 112px;
+  background-color: #f8fafc;
+}
+
+main .testimonial h2 {
+  color: #1e293b;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -0.504px;
+  margin-top: 24px;
+}
+main .testimonial .description {
+  color: #475569;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+main .testimonial .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: 64px;
+}
+main .testimonial .container .grid-col {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+main .testimonial .container .testimonial-box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  border-radius: 24px;
+  border: 1px solid #e2e8f0;
+}
+main .testimonial .container .testimonial-box .star {
+  display: flex;
+  gap: 8px;
+  width: fit-content;
+}
+main .testimonial .container .testimonial-box .review {
+  color: #475569;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+main .testimonial .container .testimonial-box .user {
+  display: flex;
+  gap: 12px;
+}
+main .testimonial .container .testimonial-box .user h5 {
+  color: #1e293b;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.112px;
+}
+
+main .testimonial .container .testimonial-box .user p {
+  color: #475569;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
