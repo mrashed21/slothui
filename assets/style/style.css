@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 li {
   list-style: none;
 }
@@ -355,6 +358,7 @@ main .statistics .count .divider {
   height: 100px;
   background-color: #cbd5e1;
 }
+
 /* who-is-it section */
 main .who-is-it {
   margin: 0 auto;
@@ -409,12 +413,18 @@ main .who-is-it .main-container .left-side .box {
   justify-content: center;
   align-items: center;
   gap: 24px;
+  cursor: pointer;
 }
 main .who-is-it .main-container .left-side .box .bar-line {
   width: 5px;
   height: 100px;
   background-color: #e0e7ff;
   border-radius: 8px;
+}
+
+main .who-is-it .main-container .left-side .box .bar-line.active {
+  background-color: #4f46e5 !important;
+  width: 7px !important;
 }
 main .who-is-it .main-container .left-side .box h4 {
   color: #475569;
